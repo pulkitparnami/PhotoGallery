@@ -1,0 +1,65 @@
+<html>
+<head>
+
+</script>
+<script type = "text/javascript" src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/Lightbox/stylesheet.css">
+<script type = "text/javascript" src ="/Lightbox/javascript.js"></script>
+
+<script type = "text/javascript" src ="/Lightbox/filter.js">
+</script>
+
+</head>
+<body>
+<div class="lightbox">
+<div id ="overlay">
+<img class = "leftarrow" src="arrow/left.png"/>
+<img class = "rightarrow" src="arrow/right.png"/>
+<button class = "slideshow">Start SlideShow</button>
+
+
+<select name="selector" class="slideoption">
+
+<option value="fast">Fast</option>
+<option value="slow">Slow</option>
+  <option value="normal">Normal</option>
+  
+</select>
+
+<button class = "stopSlideShow">Stop SlideShow</button>
+</div>
+
+
+<title> Light Box </title>
+<div class="heading"> Light Box </div>
+<div class = "hidden_text"></div>
+<ul class = "filters">Filters : 
+<input type="checkbox" id ="p1" class="all" value="Car"><label for ="p1">All</label>
+<input type="checkbox" id ="p2" class="got" value="Car"><label for ="p2">Game of Thrones</label>
+<input type="checkbox" id ="p3" class="bb" value="Car"><label for ="p3">Breaking Bad</label>
+<input type="checkbox" id ="p4" class="arrow" value="Car"><label for ="p4">Arrow</label>
+</ul>
+<input type="text" class="search" placeholder="Search...">
+
+<div class="imagebox">
+<span class="close">X</span>
+<img id = "" src="">
+<div class = "image_text"><p></p></div>
+</div>
+<ul class = "images">
+<li data-key = "game of thrones"><img class = "all got" id = "1" src="images/1.jpg" name="1"></li>
+<li data-key = "game of thrones"><img class = "all got" id = "2" src="images/2.jpg" name="2"></li>
+<li data-key = "arrow oliver"><img class = "all arrow" id = "3" src="images/3.jpg" name="3"></li>
+<li data-key = "arrow oliver"><img class = "all arrow" id = "4" src="images/4.jpg" name="4"></li>
+<li data-key = "breaking bad jesse walter white"><img class = "all bb" id = "5" src="images/5.jpg" name="5"></li>
+<li data-key = "breaking bad jesse walter white"><img class = "all bb" id = "6" src="images/6.jpg" name="6"></li>
+<li data-key = "game of thrones"><img class = "all got" id = "7" src="images/7.jpg" name="7"></li>
+<li data-key = "breaking bad jesse walter white"><img class = "all bb" id = "8" src="images/8.jpg" name="8"></li>
+
+</ul>
+
+
+
+
+</body>
+</html>

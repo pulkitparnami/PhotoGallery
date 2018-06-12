@@ -1,0 +1,168 @@
+.images li img {width: 90%;
+margin: 17px;
+}
+.images li {
+    display: table;
+    width: 25%;
+    
+    margin: 17px;
+    margin: 0 auto;
+    position: relative;
+    float: left;
+}
+.images {margin-top: 35px;
+z-index: 0}
+.lightbox {
+	text-align: center;
+	height: 611px;
+}
+.heading {
+	
+    font-family: fantasy;
+    font-size: 31px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+}
+#overlay {
+	background-color: black;
+	opacity: 0.7;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+	position: absolute;
+	display: none;
+	position: fixed;
+
+}
+.imagebox {
+    width: 55%;
+    height: 81%;
+    background-color: white;
+    margin: auto;
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: none;
+}
+.imagebox img {
+	width: 100%;
+	height: 100%;
+}
+.close {
+    padding: 4px;
+    background-color: #222;
+    color: #f0f0f0;
+    font-weight: bold;
+    display: table;
+    float: right;
+    top: 0px;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+}
+.leftarrow {
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 16%;
+    cursor: pointer;
+}
+.rightarrow{
+    position: relative;
+    float: right;
+    top: 50%;
+    right: 16%;
+    cursor: pointer;
+}
+.slideshow , .stopSlideShow , .slidesetting {
+    background-color: #1e73be;
+    color: white;
+    opacity: 1;
+    position: relative;
+    float: right;
+    top: 1%;
+    right: 21%;
+    cursor: pointer;
+    border: 0;
+    padding: 6px;
+    font-weight: bold;
+}
+.stopSlideShow{display: none;
+}
+.slidesetting {right: 10%!important;
+
+background-color: transparent!important;
+}
+.slideoption{
+   
+    position: relative;
+    float: right;
+    top: 1%;
+    right: 10%;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: 0;
+    background-image: url("arrow/gear.png");
+}
+select {
+        /*for firefox*/
+        -moz-appearance: none;
+        /*for chrome*/
+        -webkit-appearance:none;
+        font-size: 0;
+      }
+
+/*for IE10*/
+select::-ms-expand {
+    display: none;
+}
+select:focus {
+	outline: none;
+}
+
+select option {font-size: 14px!important;
+background-color: #ADFF2F;
+font-weight: bold;
+color: #111;
+}
+.image_text p{
+    display: table;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2px 7px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.filters label {
+    list-style-type: none;
+    display: inline;
+    margin-right: 6px;
+    font-weight: bold;
+    font-family: arial!important;
+    font-style: normal;
+    color: purple;
+}
+.filters input[type="checkbox"]{
+	background-color: blue!important;
+}
+.filters {
+	position: absolute;
+	font-weight: bold;
+	font-style: italic;
+	font-family: cursive;
+
+}
+.hidden_text {
+	display: none;
+}
+
+.search {
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+
+
